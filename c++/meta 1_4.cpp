@@ -22,7 +22,7 @@ int div(int a,int b){
 	return resultado;}
 		
 main(){
-	int a,b,operacion,resultado; 
+	int a,b,exit,operacion,resultado; 
 	cout <<"Elige que operacion vas hacer" <<endl << "tienes de opcion: suma(1),resta(2),multi(3) y div(4)..." << endl;	cin >> operacion;  
 	cout << "Elige el primer valor: ";   cin >> a;   
 	cout << "Elige el segundo valor: " ; cin >> b; 
@@ -37,4 +37,5 @@ main(){
 		cout << "El resultado de la division fue: "<< resultado << endl;break;
 		default: cout << "seleccionaste una operacion que no existe";
     }
+    cin >> exit;
 }
